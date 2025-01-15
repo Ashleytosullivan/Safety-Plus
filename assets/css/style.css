@@ -15,3 +15,7 @@ h1 {
 p {
     text-align: center;
 }
+
+.navbar-toggler:hover {
+    background-color: #aaa; /* Change this to your desired hover color */
+}
