@@ -42,3 +42,10 @@ Wireframes have been created using Balsamiq. The goal was to create an easy to n
 
 ### Background and font pass WCAG guidelines
 ![backgroundfont](/assets/images/backgroundfontvalid.PNG)
+
+
+
+## Credits
+Cybersecurity info from https://www.executech.com/insights/top-15-types-of-cybersecurity-attacks-how-to-prevent-them/#:~:text=5%20%E2%80%93%20DDoS.%20Distributed%20Denial%20of%20Service,shuts%20down%20or%20slows%20to%20unusable%20performance.
+
+https://www.ncsc.gov.uk/
