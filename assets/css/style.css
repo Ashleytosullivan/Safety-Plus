@@ -1,7 +1,16 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-/* General Styles */
+
+/* CSS Variables */
+
+:root {
+    --primary-background: #0C2C3B;
+    --primary-font: #FFFF00;
+    --secondary-font: black;
+}
+
+/* Global Styles */
 body {
     background-color: #0C2C3B;
     color: #FFFF00; /* Optional: to ensure text is readable */
@@ -72,6 +81,34 @@ header {
 /* Card */
 .card {
     border: none;
+}
+
+
+
+/* Learn Section */
+
+
+
+#learn h4 {
+    color: #FFFF00; /* Set the h4 color to yellow */
+}
+
+#learn .card-title, #learn .card-text {
+    color: black; /* Ensure card titles and texts are black */
+}
+
+#learn .card {
+ 
+    border-color: #FFFF00;
+    border-radius: 0px; /* Optional: to add rounded corners */
+    padding: 1px; /* Optional: to add padding inside the card */
+    margin-bottom: 1rem;
+   
+}
+
+#learn .card-body {
+    background-color: white;
+ 
 }
 
 .card-body {
