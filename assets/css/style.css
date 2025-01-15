@@ -3,8 +3,10 @@
 
 /* General Styles */
 body {
-    background-color: #195b7c;
-    color: #ffffff; /* Optional: to ensure text is readable */
+    background-color: #0C2C3B;
+    color: #FFFF00; /* Optional: to ensure text is readable */
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* Typography */
@@ -13,7 +15,7 @@ h1, p {
 }
 
 .header-title, .header-text, .card-title, .card-text {
-    color: #ffffff; /* Ensure text is readable */
+    color: #FFFF00; /* Ensure text is readable */
 }
 
 /* Navbar */
@@ -27,24 +29,20 @@ h1, p {
 
 /* Header */
 header {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 15px; /* Adjust the value as needed */
 }
 
 /* Hero Image */
 .hero-image {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: auto; 
     object-fit: cover;
-    opacity: 0.8; /* Optional: to blend the image with the background */
+    max-height: 400px;
+    margin-bottom: 2px;
+  
 }
 
-/* Full Width Image */
-.full-width-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px; /* Adjust the value as needed */
-    object-fit: cover;
-}
+
 
 /* Card */
 .card {
@@ -52,10 +50,10 @@ header {
 }
 
 .card-body {
-    background-color: #195b7c;
+    background-color: #0C2C3B;
 }
 
 /* Container Section */
 .container-section {
-    background-color: #195b7c;
+    background-color: #0C2C3B;
 }
