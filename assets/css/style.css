@@ -1,6 +1,11 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+body {
+    background-color: #8d9aad;
+}
+
 .full-width-image {
     width: 100%;
     height: auto;
@@ -18,4 +23,12 @@ p {
 
 .navbar-toggler:hover {
     background-color: #aaa; /* Change this to your desired hover color */
+}
+
+header {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.card-body {
+    background-color: #8d9aad;
 }
