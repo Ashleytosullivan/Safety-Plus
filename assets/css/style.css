@@ -9,6 +9,16 @@ body {
     
 }
 
+/* Add margin to the bottom of the About section */
+#about {
+    margin-bottom: 40px; /* Adjust the value as needed */
+}
+
+/* Add margin to the top of the Learn section */
+#learn {
+    margin-top: 40px; /* Adjust the value as needed */
+}
+
 /* Typography */
 h1, p {
     text-align: center;
