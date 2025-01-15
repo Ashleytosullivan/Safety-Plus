@@ -150,6 +150,21 @@ header {
     text-align: center;
 }
 
+
+/*testimonials section*/
+
+.resize-image {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the images rounded */
+    margin: 0 auto;
+    display: block;
+}
+
+#testimonials .card-body {
+    background-color: #0C2C3B;
+}
+
 /* Media Query for Large Screens */
 @media (min-width: 992px) {
     .hero-image {
