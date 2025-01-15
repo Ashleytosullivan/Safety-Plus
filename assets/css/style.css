@@ -29,13 +29,13 @@ h1, p {
 
 /* Header */
 header {
-    margin-bottom:auto /* Adjust the value as needed */
+    margin-bottom:auto; /* Adjust the value as needed */
 }
 
 /* Hero Image */
 .hero-image {
     width: 100%;
-    height: auto; 
+    height: 100vh; 
     object-fit: cover;
     max-height: 400px;
     margin-bottom: 2px;
