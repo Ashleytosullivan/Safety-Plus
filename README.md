@@ -28,3 +28,8 @@ Python bash - python3 -m http.server
 #### Wireframe 1 - Mobile
 
 ![Wireframephone](../Safety-Plus/assets/images/Safetyframe%20mobile.png)
+
+
+### Favicon passes WCAG guidelines
+
+![Favicon](/assets/images/faviconsafety/Favicon%20contrast.PNG)
