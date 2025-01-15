@@ -19,6 +19,8 @@ body {
     padding-top: 10px;
 }
 
+
+
 /* Add margin to the bottom of the About section */
 #about {
     margin-bottom: 40px;
@@ -144,6 +146,8 @@ header {
 /* Container Section */
 .container-section {
     background-color: #0C2C3B;
+    position: relative;
+    text-align: center;
 }
 
 /* Media Query for Large Screens */
