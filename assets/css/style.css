@@ -1,2 +1,17 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the value as needed */
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

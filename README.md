@@ -1,7 +1,10 @@
 # Safety-Plus
 Individual Formative Assignment: HTML, CSS, Bootstrap
 
-
+# Introduction
+Safety Plus! is a my first assessed project for the AI Assisted Full Stack Web Developer Bootcamp.
+This project will be utilising HTML, CSS, Bootstrap & Microsoft Copilot assisted code to fulfill the brief for this project.
+Safety Plus! is a handy cybersecurity guide for adults to safely navigate the tricky worldwide web.
 
 Python bash - python3 -m http.server
 
@@ -23,11 +26,11 @@ Python bash - python3 -m http.server
 ### Wireframe layouts
 #### Wireframe 1 - PC
 
-![Wireframe](../Safety-Plus/assets/images/safetyframe%20desktop.png)
+![Wireframe](/assets/images/safetyframe%20desktop.png)
 
 #### Wireframe 1 - Mobile
 
-![Wireframephone](../Safety-Plus/assets/images/Safetyframe%20mobile.png)
+![Wireframephone](/assets/images/Safetyframe%20mobile.png)
 
 
 ### Favicon passes WCAG guidelines
