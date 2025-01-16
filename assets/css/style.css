@@ -250,8 +250,14 @@ header {
 #testimonials .card-body {
     background-color: transparent;
     color: #1D3557;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
+.testimonials {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
 
 
 /* Footer Section */
@@ -260,14 +266,16 @@ footer {
     background-color: #003459;
     color: #FFFFFF;
     /* Optional: to ensure text is readable */
-    padding: 20px;
+    padding-bottom: 20px;
     /* Optional: to add some padding */
     text-align: center;
     /* Optional: to center the text */
+
 }
 
 footer .container-section {
     background-color: #003459;
+   
 }
 
 form {
