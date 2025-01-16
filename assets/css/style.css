@@ -8,6 +8,7 @@
     --primary-background: #0C2C3B;
     --primary-font: #F1FAEE;
     --secondary-font: black;
+    --secondary-background: #E63946;
 }
 
 /* Global Styles */
@@ -76,7 +77,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 /* Hero Image */
 .hero-image {
@@ -92,10 +93,9 @@ header {
 
 .btn-primary,
 .btn {
-    color:#F1FAEE;
+    color: #F1FAEE;
     background-color: #0C2C3B
-    
-    /* Adjust the opacity as needed */
+        /* Adjust the opacity as needed */
 }
 
 /* Card */
@@ -142,56 +142,58 @@ header {
 }
 
 #learn .btn:hover {
-    color:#0C2C3B;
+    color: #0C2C3B;
     background-color: #F1FAEE;
-   
+
 }
 
 #learn .card:hover {
-    transform: scale(1.02); /* Slightly enlarge the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a shadow effect */
-}
-
-
-footer {
-    background-color: #E63946;
-    color: #FFFFFF; /* Optional: to ensure text is readable */
-    padding: 20px; /* Optional: to add some padding */
-    text-align: center; /* Optional: to center the text */
-}
-
-
-
-/* Container Section */
-.container-section {
-    background-color: #1D3557;
-    position: relative;
-    text-align: center;
+    transform: scale(1.02);
+    /* Slightly enlarge the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    /* Add a shadow effect */
 }
 
 
 
 /*testimonials section*/
 
-testimonials .container-section {
-    background-color: #A8DADC;
-}
+
 
 .resize-image {
 
-    border-radius: 50%; /* Make the images rounded */
+    border-radius: 50%;
+    /* Make the images rounded */
     max-width: 200px;
     max-height: 200px;
 }
 
 .testimonial-images {
     background-color: transparent;
-    color:#1D3557;
+    color: #1D3557;
 }
 
 #testimonials .card-body {
     background-color: transparent;
-    color:#1D3557;
+    color: #1D3557;
+}
+
+
+
+/* Footer Section */
+
+footer {
+    background-color: #E63946;
+    color: #F1FAEE;
+    /* Optional: to ensure text is readable */
+    padding: 20px;
+    /* Optional: to add some padding */
+    text-align: center;
+    /* Optional: to center the text */
+}
+
+footer .footer-container {
+    background-color: #E63946;
 }
 
 /* Media Query for Large Screens */
@@ -205,6 +207,13 @@ testimonials .container-section {
         margin-top: 0px;
         /* Adjust the value as needed to reduce space */
     }
+}
+
+/* Container Section */
+.container-section {
+    background-color: #1D3557;
+    position: relative;
+    text-align: center;
 }
 
 /* Media Query for Extra-Large Screens */
