@@ -153,7 +153,12 @@ header {
 }
 
 
-/*Footer Section */
+footer {
+    background-color: #E63946;
+    color: #FFFFFF; /* Optional: to ensure text is readable */
+    padding: 20px; /* Optional: to add some padding */
+    text-align: center; /* Optional: to center the text */
+}
 
 
 
@@ -167,6 +172,10 @@ header {
 
 
 /*testimonials section*/
+
+testimonials .container-section {
+    background-color: #A8DADC;
+}
 
 .resize-image {
 
