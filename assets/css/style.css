@@ -50,7 +50,7 @@ p {
 .header-text,
 .card-title,
 .card-text {
-    color: #F1FAEE;
+    color: #A8DADC;
     /* Ensure text is readable */
 }
 
@@ -88,7 +88,7 @@ header {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    background-color: #000000; 
+    background-color: #090b1a; 
     color: #fff; 
     padding: 10px 20px; 
     font-size: 20px; 
@@ -130,6 +130,9 @@ header {
 
 /* Learn Section */
 
+#learn .card {
+    background-color: #A8DADC;
+}
 
 #learn h4 {
     color: #F1FAEE;
@@ -138,13 +141,15 @@ header {
 
 #learn .card-title,
 #learn .card-text {
+    background-color: #A8DADC;
     color: black;
+    border-color: #A8DADC;
     /* Ensure card titles and texts are black */
 }
 
 #learn .card {
 
-    border-color: #F1FAEE;
+    border-color: #A8DADC;
     border-radius: 0px;
     /* Optional: to add rounded corners */
     padding: 1px;
@@ -156,7 +161,7 @@ header {
 }
 
 #learn .card-body {
-    background-color: white;
+    background-color: #A8DADC;
 
 }
 
