@@ -120,6 +120,8 @@ header {
     padding: 1px;
     /* Optional: to add padding inside the card */
     margin-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
 }
 
@@ -158,11 +160,19 @@ header {
     height: 300px; /* Adjust the size as needed */
     border-radius: 50%; /* Make the images rounded */
     margin: 0 auto;
-    display: block;
+    background-color: #0C2C3B;
+    color:#0C2C3B;
+    
+}
+
+.testimonial-images {
+    background-color: transparent;
+    color:#0C2C3B;
 }
 
 #testimonials .card-body {
-    background-color: #0C2C3B;
+    background-color: transparent;
+    color:#0C2C3B;
 }
 
 /* Media Query for Large Screens */
