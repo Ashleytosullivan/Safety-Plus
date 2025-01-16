@@ -6,14 +6,14 @@
 
 :root {
     --primary-background: #0C2C3B;
-    --primary-font: #FFFF00;
+    --primary-font: #F1FAEE;
     --secondary-font: black;
 }
 
 /* Global Styles */
 body {
-    background-color: #0C2C3B;
-    color: #FFFF00;
+    background-color: #1D3557;
+    color: #F1FAEE;
     /* Optional: to ensure text is readable */
     font-family: "Roboto Slab", serif;
     padding-top: 10px;
@@ -49,7 +49,7 @@ p {
 .header-text,
 .card-title,
 .card-text {
-    color: #FFFF00;
+    color: #F1FAEE;
     /* Ensure text is readable */
 }
 
@@ -71,6 +71,13 @@ header {
     /* Adjust the value as needed */
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 /* Hero Image */
 .hero-image {
     width: 100%;
@@ -85,7 +92,7 @@ header {
 
 .btn-primary,
 .btn {
-    color:#FFFF00;
+    color:#F1FAEE;
     background-color: #0C2C3B
     
     /* Adjust the opacity as needed */
@@ -102,7 +109,7 @@ header {
 
 
 #learn h4 {
-    color: #FFFF00;
+    color: #F1FAEE;
     /* Set the h4 color to yellow */
 }
 
@@ -114,7 +121,7 @@ header {
 
 #learn .card {
 
-    border-color: #FFFF00;
+    border-color: #F1FAEE;
     border-radius: 0px;
     /* Optional: to add rounded corners */
     padding: 1px;
@@ -131,12 +138,12 @@ header {
 }
 
 .card-body {
-    background-color: #0C2C3B;
+    background-color: #1D3557;
 }
 
 #learn .btn:hover {
     color:#0C2C3B;
-    background-color: #FFFF00;
+    background-color: #F1FAEE;
    
 }
 
@@ -145,12 +152,18 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a shadow effect */
 }
 
+
+/*Footer Section */
+
+
+
 /* Container Section */
 .container-section {
-    background-color: #0C2C3B;
+    background-color: #1D3557;
     position: relative;
     text-align: center;
 }
+
 
 
 /*testimonials section*/
@@ -160,19 +173,19 @@ header {
     height: 300px; /* Adjust the size as needed */
     border-radius: 50%; /* Make the images rounded */
     margin: 0 auto;
-    background-color: #0C2C3B;
-    color:#0C2C3B;
+    background-color: #1D3557;
+    color:#1D3557;
     
 }
 
 .testimonial-images {
     background-color: transparent;
-    color:#0C2C3B;
+    color:#1D3557;
 }
 
 #testimonials .card-body {
     background-color: transparent;
-    color:#0C2C3B;
+    color:#1D3557;
 }
 
 /* Media Query for Large Screens */
