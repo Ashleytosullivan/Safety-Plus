@@ -44,7 +44,7 @@ Wireframes have been created using Balsamiq. The goal was to create an easy to n
 ![backgroundfont](/assets/images/backgroundfontvalid.PNG)
 
 ### Cards pass WCAG Guidelines
-![Image] (assets/images/card-contrast.PNG)
+![image](/assets/images/card-contrast.PNG)
 
 ### Color Palette used credit coolors
 ![Palette](assets/images/palette.PNG)

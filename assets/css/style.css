@@ -20,7 +20,9 @@ body {
     padding-top: 10px;
 }
 
-
+h5 {
+    color: black;
+}
 
 /* Add margin to the bottom of the About section */
 #about {
@@ -132,6 +134,7 @@ header {
 
 #about .card-body {
     background-color: #457B9D;
+    color: black;
 }
 
 
@@ -223,8 +226,8 @@ header {
 /* Footer Section */
 
 footer {
-    background-color: #E63946;
-    color: #F1FAEE;
+    background-color: #003459;
+    color: #FFFFFF;
     /* Optional: to ensure text is readable */
     padding: 20px;
     /* Optional: to add some padding */
@@ -233,7 +236,7 @@ footer {
 }
 
 footer .container-section {
-    background-color: #E63946;
+    background-color: #003459;
 }
 
 form {
