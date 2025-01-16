@@ -185,6 +185,10 @@ header {
     /* Set the h4 color to yellow */
 }
 
+#learn .container-section {
+    padding-top: 25px;
+}
+
 #learn .card-title,
 #learn .card-text {
     background-color: #A8DADC;
@@ -252,11 +256,17 @@ header {
     color: #1D3557;
     padding-bottom: 15px;
     margin-bottom: 15px;
+    padding-top: 15px;
 }
 
-.testimonials {
+#testimonials {
     padding-bottom: 15px;
     margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+#testimonials .h2 {
+    padding-bottom: 100px;
 }
 
 
@@ -266,6 +276,7 @@ footer {
     background-color: #003459;
     color: #FFFFFF;
     /* Optional: to ensure text is readable */
+    padding-top: 20px;
     padding-bottom: 20px;
     /* Optional: to add some padding */
     text-align: center;
