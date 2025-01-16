@@ -93,6 +93,7 @@ header {
     padding: 10px 20px; 
     font-size: 20px; 
     text-align: center;
+    width: auto;
   }
 
 .centered {
@@ -126,6 +127,12 @@ header {
     border: none;
 }
 
+
+/* About Section */
+
+#about .card-body {
+    background-color: #457B9D;
+}
 
 
 /* Learn Section */
@@ -236,6 +243,13 @@ form {
 
 .modal-title {
     color: #1D3557;
+}
+
+/* Container Section */
+.container-section {
+    background-color: #1D3557;
+    position: relative;
+    text-align: center;
 }
 
 /* Media Query for Large Screens */
