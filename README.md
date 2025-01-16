@@ -50,6 +50,10 @@ Wireframes have been created using Balsamiq. The goal was to create an easy to n
 ![Palette](assets/images/palette.PNG)
 
 
+## Lighthouse Score, poor due to youtube embed
+![Lighthouse](assets/images/lighthouse.PNG)
+
+
 ## Credits
 Cybersecurity info from https://www.executech.com/insights/top-15-types-of-cybersecurity-attacks-how-to-prevent-them/#:~:text=5%20%E2%80%93%20DDoS.%20Distributed%20Denial%20of%20Service,shuts%20down%20or%20slows%20to%20unusable%20performance.
 
@@ -58,3 +62,4 @@ https://www.ncsc.gov.uk/
 stock images from https://www.pexels.com/
 
 color pallette from coolers https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557
+
