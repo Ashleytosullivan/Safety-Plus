@@ -169,13 +169,10 @@ header {
 /*testimonials section*/
 
 .resize-image {
-    width: 300px; /* Adjust the size as needed */
-    height: 300px; /* Adjust the size as needed */
+
     border-radius: 50%; /* Make the images rounded */
-    margin: 0 auto;
-    background-color: #1D3557;
-    color:#1D3557;
-    
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .testimonial-images {
