@@ -122,6 +122,21 @@ header {
 
 }
 
+.hero {
+    background: url(../images/pexels-mikhail-nilov-6963944.webp) no-repeat top center/cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container-hero {
+    background-color: rgba(0, 0, 0, 0.4);
+  
+   
+}
+
 /* Buttons */
 
 .btn-primary,
