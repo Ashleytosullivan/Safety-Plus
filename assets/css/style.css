@@ -36,6 +36,13 @@ h5 {
     /* Adjust the value as needed */
 }
 
+header {
+    margin-bottom: 20px;
+    /* Adjust the value as needed */
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
 /* Typography */
 h1,
 p {
@@ -44,7 +51,7 @@ p {
 
 .underline {
     text-decoration: underline;
-    text-emphasis: bold;
+
     ;
 }
 
@@ -52,7 +59,7 @@ p {
 .header-text,
 .card-title,
 .card-text {
-    color: #A8DADC;
+    color: #FFFFFF
     /* Ensure text is readable */
 }
 
@@ -91,7 +98,7 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%); 
     background-color: #090b1a; 
-    color: #A8DADC; 
+    color: #FFFFFF; 
     padding: 10px 20px; 
     font-size: 20px; 
     text-align: center;

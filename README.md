@@ -51,7 +51,7 @@ Wireframes have been created using Balsamiq. The goal was to create an easy to n
 
 
 ## Lighthouse Score, poor due to youtube embed
-![Lighthouse](assets/images/lighthouse.PNG)
+![Lighthouse](assets/images/deployedlighthouse.PNG)
 
 
 ## Credits
