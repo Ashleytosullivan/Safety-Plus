@@ -104,7 +104,7 @@ header {
     text-align: center;
     width: auto;
   }
-
+ 
 .centered {
     position: absolute;
     top: 50%;
@@ -159,6 +159,13 @@ header {
 #about .card-body {
     background-color: #A8DADC;
     color: black;
+}
+
+#about .card:hover {
+    transform: scale(1.02);
+    /* Slightly enlarge the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    /* Add a shadow effect */
 }
 
 
