@@ -130,6 +130,11 @@ header {
 
 /* Learn Section */
 
+#learn .card-img-top {
+    max-height: 214px;
+    max-width: 320px;
+}
+
 #learn .card {
     background-color: #A8DADC;
 }

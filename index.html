@@ -102,6 +102,7 @@
           <div class="card flex-fill">
             <div class="card-body">
               <h5 class="card-title text-center underline">Malware</h5>
+            
               <p class="card-text">We’ll start with the most prolific and common form of security threat: malware. It’s
                 been around since the internet’s inception and continues to remain a consistent problem. Malware is when
                 an unwanted piece of programming or software installs itself on a target system, causing unusual
@@ -155,6 +156,7 @@
           <div class="card flex-fill">
             <div class="card-body">
               <h5 class="card-title text-center underline">Phishing Attacks</h5>
+            
               <p class="card-text">Phishing scams are an older attack method and rely on social engineering to achieve
                 its goal. Typically, an end user receives a message or email which requests sensitive data, such as a
                 password. Sometimes, the phishing message appears official, using legitimate appearing addresses and
@@ -254,9 +256,9 @@
 
    <footer id="footer">
     <div class="container-section  footer-container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-left">
         <div class="col-12 text-center">
-            <h2 class="display-6">Contact us!</h2>
+            <h2 class="display-6">Get In Touch!</h2>
         </div>
         <!-- Contact info -->
         <div class="col-12 col-md-6 col-xl-4">
@@ -280,8 +282,49 @@
                     rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
+</div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Contact Us
+</button>
 
-    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="name-talk" class="form-control">
+            <label class="form-label" for="name-talk">Name</label>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div data-mdb-input-init class="form-outline mb-4">
+            <textarea id="textarea-talk" rows="4" class="form-control"></textarea>
+            <label class="form-label" for="textarea-talk">Your message</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </footer>
+
 
 
 
