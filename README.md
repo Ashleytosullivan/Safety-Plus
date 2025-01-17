@@ -6,7 +6,6 @@ Safety Plus! is a my first assessed project for the AI Assisted Full Stack Web D
 This project will be utilising HTML, CSS, Bootstrap & Microsoft Copilot assisted code to fulfill the brief for this project.
 Safety Plus! is a handy cybersecurity guide for adults to safely navigate the tricky worldwide web.
 
-Python bash - python3 -m http.server
 
 ## Overview
 
@@ -134,3 +133,7 @@ The Lighthouse report showed good scores across the board. Initially the perform
 
 * Color pallette from coolers https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557
 
+
+
+
+#### Thanks for reading!
