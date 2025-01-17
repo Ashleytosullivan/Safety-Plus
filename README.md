@@ -72,25 +72,67 @@ The Hero Section was created using a prompt with Microsoft Copilot. This initial
 
 #### About Section
 
+This section was created using a simple card with Bootstrap and embedding a youtube video. Manual size adjustment was needed, to ensure the video fit within the container. The main issue this has caused was causing the Lighthouse Best Practices score to drop.
 
+#### Learn Section
+
+The Learn section remained largely the same as the wireframe design, but implementing a 2x2 card layout to avoid cluttering of the page. The cards were used with Bootstrap 5.3 frameworks. Implementing text from the attributed links in the cards. Using a different colour in the palette to stand out from the rest of the page. Another change implemented was a slight enlargement of the cards when hovered over, to emphasise which section is being looked at.
+
+#### Testimonials Section
+
+The Testimonials changed the most from the initial design. Rather than having numerous floating heads with quotes, after testing I decided to change these to a carousel. This helped keep the page clean on multiple devices, while still being readable. A few issues arose with the bootstrap design;
+
+* image sizing required a targeted change to make them uniform
+* The navigation buttons moved around depending on the image, set the viewport height to solve the issue
+* The images and text overlayed with each-other when navigating. Wrapping the images and text in seperate divs solved this issue.
+
+#### Footer
+
+The footer section was created manually, however utilising the Bootstrap Framework for the Contact Us button and form. The colour is changed to another from the Coolor palette to make it stand out further. 
 
 ## Use of AI
+
+The criteria for use of AI were as follows 
+
+1.  Use AI tools to assist in code creation.
+    - Microsoft Copilot was the primary AI code creation source used. It was used mostly for aligning the web page and assisting in targeted CSS. The other main use for it was in creation of the sections, with starter code for each individual section, barring the footer.
+
+2. Use AI tools to assist in debugging code
+    - Copilot was used to debug the code, finding very little beyond a couple of unclosed div tags.
+
+3. Use AI tools to optimize code for performance and user experience
+    - Asking Copilot to optimise the code resulted in few results as it had been assisting throughout. It removed some redundant css code and helped ensure the CSS and HTML codes were valid
+
+4. Reflect on AI’s role in the development process and its impact on workflow
+    - AI has proven to be an exceptionally useful tool in regards to code creation and streamlining the purpose. It has made a few mistakes and oftentimes not completely done what was requested. It is not a suitable replacement for human work, but a powerful tool when utilised correctly. Oftentimes it would target the wrong areas (even when selected) or create spaghetti code that was a minor fix to an issue. I found it easier to manually debug, however using the AI to find the errors has been useful.
+
+
+
+
+## Lighthouse Report
+
+### Lighthouse Score, poor best practices due to youtube embed
+![Lighthouse](assets/images/deployedlighthouse.PNG)
+
+The Lighthouse report showed good scores across the board. Initially the performance score was very low due to oversized images. Using the report to focus on the key areas that were lacking made the cleanup quick and relatively easy, resizing and replacing large images was the biggest change to the score. The Best Practices score was lowered entirely due to a Youtube video embedded in the About section.
+
+
+
 
 ### Cards pass WCAG Guidelines
 ![image](/assets/images/card-contrast.PNG)
 
 
-
-## Lighthouse Score, poor best practices due to youtube embed
+### Lighthouse Score, poor best practices due to youtube embed
 ![Lighthouse](assets/images/deployedlighthouse.PNG)
 
 
 ## Credits
-Cybersecurity info from https://www.executech.com/insights/top-15-types-of-cybersecurity-attacks-how-to-prevent-them/#:~:text=5%20%E2%80%93%20DDoS.%20Distributed%20Denial%20of%20Service,shuts%20down%20or%20slows%20to%20unusable%20performance.
+* Cybersecurity info from https://www.executech.com/insights/top-15-types-of-cybersecurity-attacks-how-to-prevent-them/#:~:text=5%20%E2%80%93%20DDoS.%20Distributed%20Denial%20of%20Service,shuts%20down%20or%20slows%20to%20unusable%20performance.
 
-https://www.ncsc.gov.uk/ 
+* Content for Learn Sections from https://www.ncsc.gov.uk/ 
 
-stock images from https://www.pexels.com/
+* Stock images from https://www.pexels.com/
 
-color pallette from coolers https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557
+* Color pallette from coolers https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557
 
