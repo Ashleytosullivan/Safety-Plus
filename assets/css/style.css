@@ -280,6 +280,10 @@ header {
 }
 
 
+.item-content p {
+    max-width: 60vw;
+}
+
 /* Footer Section */
 
 footer {

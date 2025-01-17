@@ -8,7 +8,7 @@ Safety Plus! is a handy cybersecurity guide for adults to safely navigate the tr
 
 Python bash - python3 -m http.server
 
-## overview
+## Overview
 
 The live project can be found here: <a href="https://ashleytosullivan.github.io/Safety-Plus/" target="blank"> Live Project</a>
 
@@ -62,6 +62,17 @@ The colour scheme was a large consideration for this project. I elected to use t
 ### General Features 
 
 To fill the criteria of the project, the page includes numerous features, coded manually, using Microsoft Copilot and the Bootstrap 5.3 framework.
+
+#### Navigation Section
+The Navbar was created using the standard Bootstrap Navbar and manually modified to use the relevant navigation links. Adding to it also a Lock Symbol and "burger" dropdown symbol, both from https://fontawesome.com/ 
+
+#### Hero Section
+
+The Hero Section was created using a prompt with Microsoft Copilot. This initially placed the header and paragraph texts below the hero image, requiring manual intervention. Utilising code suggestions from https://www.w3schools.com/ I adjusted the HTML and CSS code to include the text overlay class, adjusting it to how I wished for it to appear. Another issue caused by Copilot was the sizing of the hero image on smaller screens, which required manual targeting and media queries to fix.
+
+#### About Section
+
+
 
 ## Use of AI
 
