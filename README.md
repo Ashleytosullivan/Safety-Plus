@@ -74,6 +74,9 @@ The Hero Section was created using a prompt with Microsoft Copilot. This initial
 
 This section was created using a simple card with Bootstrap and embedding a youtube video. Manual size adjustment was needed, to ensure the video fit within the container. The main issue this has caused was causing the Lighthouse Best Practices score to drop.
 
+### Cards pass WCAG Guidelines
+![image](/assets/images/card-contrast.PNG)
+
 #### Learn Section
 
 The Learn section remained largely the same as the wireframe design, but implementing a 2x2 card layout to avoid cluttering of the page. The cards were used with Bootstrap 5.3 frameworks. Implementing text from the attributed links in the cards. Using a different colour in the palette to stand out from the rest of the page. Another change implemented was a slight enlargement of the cards when hovered over, to emphasise which section is being looked at.
@@ -116,11 +119,6 @@ The criteria for use of AI were as follows
 
 The Lighthouse report showed good scores across the board. Initially the performance score was very low due to oversized images. Using the report to focus on the key areas that were lacking made the cleanup quick and relatively easy, resizing and replacing large images was the biggest change to the score. The Best Practices score was lowered entirely due to a Youtube video embedded in the About section.
 
-
-
-
-### Cards pass WCAG Guidelines
-![image](/assets/images/card-contrast.PNG)
 
 
 ### Lighthouse Score, poor best practices due to youtube embed
