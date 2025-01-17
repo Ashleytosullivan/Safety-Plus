@@ -1,4 +1,4 @@
-# Safety-Plus
+# Safety Plus
 Individual Formative Assignment: HTML, CSS, Bootstrap
 
 # Introduction
@@ -57,13 +57,13 @@ The colour scheme was a large consideration for this project. I elected to use t
 
 ![image](assets/images/coolorpallette.PNG)
 
+## Features
 
-### Favicon passes WCAG guidelines
+### General Features 
 
-![Favicon](/assets/images/faviconsafety/Favicon%20contrast.PNG)
+To fill the criteria of the project, the page includes numerous features, coded manually, using Microsoft Copilot and the Bootstrap 5.3 framework.
 
-### Background and font pass WCAG guidelines
-![backgroundfont](/assets/images/backgroundfontvalid.PNG)
+## Use of AI
 
 ### Cards pass WCAG Guidelines
 ![image](/assets/images/card-contrast.PNG)

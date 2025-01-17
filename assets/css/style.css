@@ -66,8 +66,13 @@ p {
 /* Navbar */
 
 .navbar-toggler:hover {
-    background-color: #aaa;
+    background-color: #FFFFFF;
     /* Change this to your desired hover color */
+}
+
+.navbar-toggler:after {
+    background-color: #FFFFFF;
+
 }
 
 .navbar {
@@ -356,6 +361,6 @@ form {
 @media screen and (min-width: 768px) {
     .hero {
         height: 20%
-        display: flex;
+        
     }
 }
