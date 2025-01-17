@@ -299,19 +299,19 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form>
+            <form action="success.html" method="GET">
               <div data-mdb-input-init class="form-outline mb-4">
                 <label class="form-label" for="name-talk"><em>Name</em></label>
-                <input type="text" id="name-talk" class="form-control">
+                <input type="text" id="name-talk" class="form-control" required>
                
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"><em>Email address</em></label>
-                <input type="email" class="form-control" id="exampleInputEmail1">
+                <input type="email" class="form-control" id="exampleInputEmail1" required>
               </div>
               <div data-mdb-input-init class="form-outline mb-4">
                 <label class="form-label" for="textarea-talk"><em>Your message</em></label>
-                <textarea id="textarea-talk" rows="4" class="form-control"></textarea>
+                <textarea id="textarea-talk" rows="4" class="form-control" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
